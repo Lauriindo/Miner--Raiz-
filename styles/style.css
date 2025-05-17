@@ -1,0 +1,23 @@
+.centraliza-botoes {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    gap: 24px;               /* Espaço entre os botões */
+}
+
+.ribbon {
+    font-size: 1.2rem;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: background 0.2s;
+}
+
+.ribbon:hover {
+    background: #1d4ed8;
+}
