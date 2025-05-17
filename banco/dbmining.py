@@ -121,17 +121,3 @@ def deletar_cliente(id):
     if cliente:
         session.delete(cliente)
         session.commit()
-
-# Exemplo de uso:
-if __name__ == "__main__":
-    # Criar uma máquina
-    criar_maquina("Escavadeira", 100000.00, 5000)
-    # Listar máquinas
-    for m in listar_maquinas():
-        print(m.id, m.nome, m.custo, m.kg)
-
-
-
-
-
-
